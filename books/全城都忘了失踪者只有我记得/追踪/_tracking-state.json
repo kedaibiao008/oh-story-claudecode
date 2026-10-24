@@ -1,0 +1,166 @@
+{
+  "book_title": "全城都忘了失踪者，只有我记得",
+  "characters": {
+    "陈栀": {
+      "abilities_resources": [
+        "持有姓名空白的录取通知复印件",
+        "和陈野共同记得雾中经历"
+      ],
+      "goal": "活下去并找回可被承认的身份",
+      "identity": "18岁，陈野妹妹，刚收到大学录取通知书，旧身份被抹。",
+      "knowledge": [
+        "身体可以被救回，旧身份仍无法自动恢复"
+      ],
+      "location": "陈野车内",
+      "open_threads": [
+        "伤口待处理",
+        "旧身份如何证明"
+      ],
+      "relationships": [
+        "与陈野共同调查；母亲不认识她"
+      ],
+      "state": "左手掌受伤；获救后成为身份待核人员"
+    },
+    "陈野": {
+      "abilities_resources": [
+        "记得陈栀旧事",
+        "保有妹妹无名的录取通知复印件和今晚监控缺口线索"
+      ],
+      "goal": "为陈栀寻找可留存的第三方见证",
+      "identity": "24岁代驾，陈栀的哥哥，唯一保留妹妹旧记忆的人。",
+      "knowledge": [
+        "雾中伪装者觊觎录取信封",
+        "救回身体不恢复旧档案"
+      ],
+      "location": "便利店外的车内",
+      "open_threads": [
+        "找到第三个见证者",
+        "核对监控缺口"
+      ],
+      "relationships": [
+        "救回陈栀并承担身份担保；母亲仍不记得她"
+      ],
+      "state": "已签担保，准备带妹妹去医院"
+    }
+  },
+  "context": {
+    "active_character_names": [
+      "陈野",
+      "陈栀"
+    ],
+    "continuity_risks": [],
+    "long_term_constraints": [
+      "陈野只保留旧记忆，不能自动辨伪或恢复档案",
+      "救回身体不等于恢复旧身份",
+      "第一卷不揭城市总账和陈野身世"
+    ],
+    "next_chapter_commitments": [
+      "兄妹寻找能保存现场证词与记录的第三个人，并处理陈栀伤口。"
+    ],
+    "position": {
+      "scene": "陈野车内，便利店外",
+      "story_time": "陈栀失踪当晚，离开便利店去医院前",
+      "volume": "第一卷·雾夜无名",
+      "volume_start_chapter": 1
+    },
+    "recent_chapters": [
+      {
+        "chapter": 1,
+        "summary": "陈栀失踪且被所有人的旧记忆和记录抹去；陈野保留记忆、抢回录取信封并进入雾中。"
+      },
+      {
+        "chapter": 2,
+        "summary": "陈野用信封即时折痕和伤口辨出真陈栀，兄妹在雾里重逢，但出口正缩小。"
+      },
+      {
+        "chapter": 3,
+        "summary": "兄妹舍弃录取信封逃出雾；陈栀活着归来却无旧身份，陈野签担保带她去医院并决定寻找第三个见证者。"
+      }
+    ]
+  },
+  "foreshadow": {
+    "F001": {
+      "id": "F001",
+      "importance": "高",
+      "planned_resolution_chapter": 17,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "录取信封的血字帮助辨伪，兄妹为逃生将原件留在雾中；复印件姓名空白。",
+      "updated_chapter": 3
+    }
+  },
+  "imported_through_chapter": 0,
+  "last_committed_chapter": 3,
+  "schema_version": 4,
+  "state_revision": 3,
+  "timeline": {
+    "E001": {
+      "characters": [
+        "陈野",
+        "陈栀"
+      ],
+      "first_recorded_chapter": 1,
+      "id": "E001",
+      "objective_fact": "陈栀在便利店门口消失，店员、母亲与公共记录遗忘她；陈野保留记忆。",
+      "reader_knowledge": "读者看见失踪与抹名，未知原因。",
+      "reveal_chapter": 1,
+      "reveal_status": "已揭示",
+      "story_time": "录取通知书到达当晚二十二点十六分",
+      "updated_chapter": 1
+    },
+    "E002": {
+      "characters": [
+        "陈野",
+        "陈栀"
+      ],
+      "first_recorded_chapter": 2,
+      "id": "E002",
+      "objective_fact": "雾里有冒充陈栀者；陈野凭信封新折痕与陈栀手伤辨出真人，二人向出口逃。",
+      "reader_knowledge": "伪装者能复述旧事，却没有掌握即时物证。",
+      "reveal_chapter": 2,
+      "reveal_status": "已揭示",
+      "story_time": "陈栀失踪当晚，雾内",
+      "updated_chapter": 2
+    },
+    "E003": {
+      "characters": [
+        "陈野",
+        "陈栀"
+      ],
+      "first_recorded_chapter": 3,
+      "id": "E003",
+      "objective_fact": "兄妹逃出雾；店员与警察见到陈栀，但无法核对她的旧身份，陈野签下担保。",
+      "reader_knowledge": "救回身体不会恢复旧身份，仍可用新证词证明她此刻存在。",
+      "reveal_chapter": 3,
+      "reveal_status": "已揭示",
+      "story_time": "陈栀失踪当晚，雾退后",
+      "updated_chapter": 3
+    }
+  },
+  "wordcount_records": {
+    "1": {
+      "actual": 1906,
+      "body_sha256": "31f827643667be2793d2ab148647d97c99c41ff3e8685d8b5eab8463ec47f3db",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2100
+    },
+    "2": {
+      "actual": 1901,
+      "body_sha256": "d735ca06b148856c38c36b83b32babd37af6fd1beb9d3a08b87b3615e27f3776",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2100
+    },
+    "3": {
+      "actual": 2040,
+      "body_sha256": "1c2dd25d83a0465af2f152f0f3cfb97ce4c4781ae104c5adfbac30e4742ba9cb",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2100
+    }
+  }
+}
